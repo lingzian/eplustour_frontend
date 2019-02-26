@@ -1,0 +1,170 @@
+.mobile::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+.mobile::-webkit-scrollbar-track-piece {
+	background-color: rgba(0, 0, 0, 0.2);
+	-webkit-border-radius: 6px;
+}
+
+.mobile::-webkit-scrollbar-thumb:vertical {
+	height: 5px;
+	background-color: rgba(125, 125, 125, 0.7);
+	-webkit-border-radius: 6px;
+}
+
+.mobile::-webkit-scrollbar-thumb:horizontal {
+	width: 5px;
+	background-color: rgba(125, 125, 125, 0.7);
+	-webkit-border-radius: 6px;
+}
+/* 移動端內容區域 */
+.mb-padding-content{
+	padding-top: 1.333333rem;
+	padding-bottom: 1.266667rem;
+}
+/* 修改elementui */
+.mobile .item .rate i,
+.mobile .rate i{
+	font-size: 0.3864734299516908rem;
+}
+/* 购买页数量picker */
+.mobile .buy .el-input-number--small{
+	width: 2.4rem;
+	line-height: .62rem;
+}
+.mobile .buy .el-input--small{
+	font-size: .32rem;
+}
+.mobile .buy .el-input-number--small .el-input-number__decrease,
+.mobile .buy .el-input-number--small .el-input-number__increase{
+	width: .666667rem;
+	font-size: .32rem;
+}
+.mobile .buy .el-input--small .el-input__inner{
+	height: .666667rem;
+}
+.mobile .buy .el-input-number--small .el-input__inner{
+	padding-left: .666667rem;
+	padding-right: .666667rem;
+}
+/* 修改mint UI */
+.mb-toast{
+	padding: .266667rem !important;
+}
+.mb-toast .mint-toast-text{
+	font-size: .4rem;
+}
+.mobile .mint-cell-title{
+	display: none;
+}
+.noDate .picker-slot.picker-slot-center:nth-of-type(3){
+	display: none;
+}
+.mobile .evaluate .rate i{
+	font-size: .533333rem;
+}
+.picker-item{
+	font-size: .4rem;
+}
+.mint-datetime-action{
+	height: 100%;
+	font-size: .36rem !important;
+	line-height: 1rem !important;
+}
+.mint-msgbox-input input,
+.mint-msgbox-message,
+.mint-msgbox-btn{
+	font-size: .36rem;
+}
+.mint-msgbox-message{
+	line-height: .9rem !important;
+	font-size: .4rem !important;
+}
+.mint-msgbox-btn,
+.mint-msgbox-btns{
+	height: 1rem !important;
+	line-height: 1rem !important;
+}
+.mint-msgbox-input input{
+	height: .8rem;
+	padding: .1rem .2rem !important;
+	overflow: hidden;
+}
+.picker-toolbar{
+	height: 1rem !important;
+}
+.mobile .loading{
+    width: 100%;
+    color: #2d9aff;
+    text-align: center;
+    font-size: .4rem;
+    height: .8rem;
+    line-height: .8rem;
+}
+.mobile .no-result{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  font-size: .4rem;
+}
+.mint-msgbox-title{
+	font-size: .5rem !important;
+}
+.mint-spinner-snake{
+	width: 0.6rem !important;
+	height: 0.6rem !important;
+	border: .06rem solid transparent;
+}
+.mint-indicator-wrapper{
+	padding: .2rem !important;
+}
+.mint-actionsheet-list{
+	margin-bottom: .4rem !important;
+}
+.mint-actionsheet-listitem, .mint-actionsheet-button{
+	height: 1rem !important;
+	line-height: 1rem !important;
+	font-size: .4rem !important;
+}
+.mobile .el-radio__inner{
+	width: .4rem;
+	height: .4rem;
+	vertical-align: bottom;
+}
+.mobile .el-radio__inner::after{
+	width: .1rem;
+	height: .1rem;
+}
+.mobile .el-radio__label{
+	font-size: .4rem;
+	vertical-align: top;
+}
+
+/* 推广 */
+#message-content .item .item_content .title,
+#message-content .item .item_content .info p,
+#message-content .item .item_content .info h1,
+#message-content .item .item_content .info h2,
+#message-content .item .item_content .info h3,
+#message-content .item .item_content .info h4,
+#message-content .item .item_content .info h1 strong,
+#message-content .item .item_content .info h2 strong,
+#message-content .item .item_content .info h3 strong,
+#message-content .item .item_content .info h4 strong
+{
+  width: 8rem;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  height: .41rem;
+  color: rgb(102, 102, 102);
+  font-weight: normal;
+  font-size: .373333rem;
+}
+

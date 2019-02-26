@@ -1,0 +1,121 @@
+.pc{
+	font-size: 16px;
+}
+.col-width{
+	width: 1200px;
+	margin: 0 auto;
+}
+.min-width{
+	min-width: 1200px;
+}
+/* pc评价 */
+.evaluate.rate i{
+	font-size: 40px;
+}
+.el-textarea{
+	font-size: 16px;
+}
+.pc .el-input.is-disabled .el-input__inner{
+	background-color: #fff !important;
+}
+.swiper-button-prev:focus,
+.swiper-button-next:focus,
+.swiper-pagination-bullet:focus{
+	outline: none;
+}
+.el-dropdown-menu,
+.el-tooltip__popper{
+	white-space:nowrap;
+	word-break: normal;
+}
+.pc .head :focus{
+	outline: 0;
+}
+.autocomplete-nationality{
+	width: 300px;
+}
+.el-autocomplete-suggestion li{
+	white-space : normal;
+	padding: 6px 20px;
+	line-height: normal;
+}
+/* banner上面的搜索 */
+.searchBox .firstDay .el-input__inner,
+.searchBox .secondDay .el-input__inner{
+	padding-left: 35px;
+	padding-top: 4px;
+}
+.searchBox input {
+	font-size: 12px;
+}
+.searchBox .search-right .el-icon-search:before,
+.searchBox .search-right .el-icon-refresh:before{
+	margin-right: 5px;
+}
+
+ .searchBox .time .el-date-editor{
+	width: 270px;
+}
+.searchBox .time .el-date-editor .el-range-separator{
+	width: 9%;
+}
+.searchBox .selectHowLong .third-input .el-input__inner {
+	padding: 0 0px 0 17px;
+}
+.searchBox .selectHowLong .el-input__inner {
+	width: 166px;
+
+}
+.searchBox .selectPeople .el-input-number {
+	width: 130px;
+}
+/* pc 首页item */
+
+.itemBox .rate-star .template{
+	line-height: 30px;
+	font-size: 13px;
+}
+
+/* 详细页评分进度条 */
+
+.startContent .el-progress-bar__outer{
+	height: 10px !important;
+}
+
+/* 首页星星 */
+.tripBox .itemBox .trip_star .el-rate{
+	line-height: 2;
+}
+.tripBox .itemBox .trip_star .el-rate__text {
+    font-size: 13px;
+	vertical-align: bottom;
+}
+/* 搜索页的星星 */
+.search .lister .trip_star .rate-star i{
+	font-size: 23px;
+}
+.search .lister .trip_star .rate-star .template{
+	line-height: 25px;
+}
+.scroll_y_bar .el-scrollbar__wrap{
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.choose_dialog .el-dialog__body{
+	padding-top: 10px;
+}
+/* 搜索页loading */
+.search .el-icon-loading{
+	font-size: 30px;
+}
+/* 个人中心护照 */
+.passPortPop .select_types input{
+	padding: 0;
+	border: white;
+}
+.passPortPop .select_types .el-input{
+	width: 100%;
+}
+.passPortPop .select_types .el-input__suffix{
+	right: 3px;
+}
